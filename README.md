@@ -20,7 +20,7 @@ It also supports counting lines across multiple files.
 Even across directories...
 ```
 [8:13 PM] (matadam@cs8:~/cs2) loc stacks/ queues/
-583
+183
 ```
 
 What about pretty formatting? Everybody loves it!
