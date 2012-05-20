@@ -1,5 +1,6 @@
 #!/usr/bin/perl
-# Calculates lines of code in a perl or python file
+# Calculates lines of code through files and directories
+# Also supports extensions 'n stuff
 
 use File::Find;
 use File::Basename qw(fileparse);
