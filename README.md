@@ -2,13 +2,14 @@ loc
 ===
 
 Counts lines of code through files or directories.
-
+```
 [8:08 PM] (matadam@cs8:~/plvpy/python) loc helloworld.py 
 1
 [8:09 PM] (matadam@cs8:~/plvpy/perl) loc daily.pl 
 27
 [8:09 PM] (matadam@cs8:~/plvpy/perl) loc newdaily.pl 
 13
+```
 
 It also supports counting lines across multiple files.
 ```
