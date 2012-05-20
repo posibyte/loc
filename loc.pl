@@ -40,7 +40,7 @@ sub warning{
     next unless -T $_;
     open FILE, '<', $_;
     foreach(<FILE>){
-        ($counter++ and $filecounter++)unless (/^(?:[\s]+)?(#|\/\/|\/\*|\*\/)/) or (/^\n(?:[\s])?$/);
+        ($counter++ and $filecounter++) unless (/^(?:[\s]+)?(#|\/\/|\/\*|\*\/)/) or (/^\n(?:[\s])?$/);
     }
     close FILE;
     if($set == 1) {
