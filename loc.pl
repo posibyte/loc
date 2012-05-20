@@ -23,9 +23,9 @@ if($args =~ /\[(.*)\]/){
   @exts = split(/,/, $1);
 }
 
-finddepth(\&warning, @ARGV);
+finddepth(\&wanting, @ARGV);
 
-sub warning{
+sub wanting{
     $isset = 1;
     $name = $_;
     $size = @exts;
